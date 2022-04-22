@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color:#1F2933;
     padding-bottom: 20em;
     margin: 0;
     min-height: 15cm;
@@ -7,14 +7,21 @@ body {
 
 h1, h2, h3, h4, h5, h6, h7 {
     font-family: sans-serif;
+    color: #CBDED9;
+    //background-color: #121212;
 }
 
 h1 {
-    background-color: #007acc;
-    color: white;
+    //background-color: #627d98;
+    text-align: center;
+    
     padding: 3mm;
     margin-top: 0;
     margin-bottom: 1mm;
+}
+
+a:link {
+ color: #03dac6;
 }
 
 .footer {
@@ -33,11 +40,13 @@ h1 {
     width: 100%;
     margin-bottom: 2em;
     border-collapse: collapse;
-    border: 1px solid grey;
+    background-color: #7B8794;
+    border-radius: 5px;
+
 }
 
 .proplist th {
-    background-color: silver;
+    //background-color: #323f4b;
     width: 5em;
     padding: 2px;
     padding-right: 1em;
@@ -65,6 +74,9 @@ h1 {
 .toc {
     margin-bottom: 2em;
     font-family: monospace;
+    color: #f5f7fa;
+    background-color: #323f4b;
+    border-radius: 5px;
 }
 
 .stdio, pre {
@@ -72,6 +84,7 @@ h1 {
     background-color: #1e1e1e;
     color: silver;
     padding: 0.5em;
+    boder-radius: 60px;
 }
 .tdpre {
     background-color: #1e1e1e;
@@ -87,7 +100,7 @@ h1 {
 }
 
 .outcome-failed {
-    border-left: 1em solid lightcoral;
+    border-left: 1em solid #CF6679;
 }
 
 .stats-table {
@@ -99,7 +112,7 @@ h1 {
 }
 
 .stats-table .failed {
-    background-color: lightcoral;
+    background-color: #CF6679;
 }
 
 .stats-table .passed {
@@ -168,7 +181,7 @@ h1 {
 }
 
 .matrix-result-failed {
-    background-color: lightcoral;
+    background-color: #CF6679;
 }
 
 .matrix-result-passed {
